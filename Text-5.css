@@ -1,0 +1,236 @@
+body{
+ font-family: 'century othic', colibri, serif;
+ font-size: 13px;
+ margin: 0px;
+ padding: 0px;
+}
+h1{
+ font-size: 40px;
+ font-weight: normal;
+ text-align: center;
+ /*text-transform: uppercase;*/
+}
+header{
+ height: 100px;
+}
+footer{
+ height: 80px;
+ text-align: center;
+ padding-top: 30px;
+ background-color: #a1a1a1;
+ border-top: 2px solid #AAA;
+}
+nav{
+ width: 100%;
+ background-color: #aaa;
+}
+nav ul{
+ margin: 0px;
+ padding: 0px;
+}
+nav li{
+ list-style-type: none;
+ float: left;
+}
+/*pour souvenir*/
+/*section .image3{
+ width: 100%;
+ min-height: 300px;
+ padding-bottom: 10px;
+ margin-bottom: 10px;
+}*/
+.left img{
+  /* width: 50%;*/
+   max-width: 400px;
+   margin-top: 30px;
+   }
+   /*pour l'animation*/
+ .box{
+  height: 100vh;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+ }
+ .b1{
+  background-color: #e27d60;
+ 
+ }
+ .b2{
+  background-color: #85cdca;
+  margin-bottom: 40px;
+ }
+ .aniimage{
+  object-fit: cover;/*le fire ourir de cette espace*/
+  height: 600px;
+  width: 20%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: fixed;
+ }
+ /*pour souvenir*/
+ .souv1{
+  width: 100%;
+  height: 50px;
+  overflow: scroll;
+  background-color: #a11111;
+ }
+ div .souv2{
+  width: 100%;
+  height: 100px;
+  margin: 0px 10%;
+ }
+ .souv{
+  width: 100%;
+  height: 550px;
+ }
+ .left img{
+   width: 100%;
+   max-width: 400px;
+}
+
+
+
+.table{
+ margin: 0px auto;
+ display: table;
+}
+nav a{
+ display: inline-block;
+ padding: 20px 30px;
+ text-decoration: none;
+ text-transform: uppercase;
+ color: #fff;
+ font-size: 15px;
+}
+.menu-1:hover{
+ border-top: 5px solid orange;
+ background-color: rgba(68,201,08,0.9);
+}
+.menu-2:hover, .etoile, .cycliste{/*pour cide*/
+ border-top: 5px solid orange;
+ background-color: rgba(8,181,181,0.9);
+}
+.menu-3:hover, .chocolat{
+ border-top: 5px solid orange;
+ background-color: rgba(168,81,208,0.9);
+}
+.menu-4:hover, .frisbee{
+ border-top: 5px solid orange;
+ background-color: rgba(198,191,08,0.9);
+}
+li:hover a{
+ padding: 15px 30px 20px 30px;
+}
+.sec{
+ margin: 0px 10%;
+}
+section{
+ width: 100%;
+ min-height: 350px;
+ padding-bottom: 10px;
+ margin-bottom: 10px;
+ margin: 10% 0px;*/
+}
+.right{
+ text-align: center;
+}
+.left{
+ float: left;
+ width: 30%;
+}
+.right{
+ float: left;
+ width: 70%;
+}
+/*pour contact*/
+#div1, #div2, #div3, #div4, #div5, #div6, #div7, #div8, #div9, #div10{
+ display: inline-block;
+ width: 15%;
+ height: 150px;
+ box-shadow: 50px 5px 50px;
+ margin: 2%;
+ margin-top: 20px;
+}
+#div1{
+background-image: url("image/phpXBlOaM.jpg");
+background-size: 100%;
+background-repeat: no-repeat;
+}
+#div7{
+ background-image: url("image/poissons-d-egypte-7907633a-d0f5-49ae-ad11-e609f9e18a34.jpg");
+background-size: 100%;
+background-repeat: no-repeat;
+}
+#div3{
+ background-image: url("image/36398604.webp");
+background-size: 100%;
+background-repeat: no-repeat;
+}
+#div9{
+ background-image: url("image/Timon-(The_Lion_King).webp");
+background-size: 100%;
+background-repeat: no-repeat;
+}
+#div5{
+ background-image: url("image/coucou.jpg");
+background-size: 100%;
+background-repeat: no-repeat;
+}
+
+/*pour l'experiencw*/
+h1{
+ text-shadow: 0 2px 0 rgba(0,0,0,.5);
+}
+span:before{
+ content: 'le chocolat';
+ animation: animate infinite 20s;
+}
+@keyframes animate{
+ 0%
+ {
+  content: 'le bwatsangua';
+ }
+ 25%
+ {
+  content: 'la banane';
+ }
+ 50%
+ {
+  content: 'mes pieds';
+ }
+ 75%
+ {
+  content: 'ma papaye';
+ }
+ 100%
+ {
+  content: 'ma soeur. elle sera toujours là pour toi.';
+ }
+}
+
+@media screen and (max-width:780px){
+ header{
+  height: 50px;
+ }
+ h1{
+  font-size: 28px;
+  margin: 20px 0px 0px 0px;
+ }
+ nav li a{
+  font-size: 12px;
+  padding: 10px;
+ }
+ nav li:hover a{
+  padding: 5px 10px 10px 10px;
+ }
+ .aniimage{
+  height: 300px;
+  width: 25%;
+ }
+.souv{
+ height: 200px;
+}
+section{
+ min-height: 220px;
+}
+
+}
